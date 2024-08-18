@@ -5,9 +5,9 @@
     "author": "Khaled Ihitt",
     "license": "GPLv3",
     "scripts": {
-    "serve": "http-server dist -p 8080",
-    "deploy": "npm install -g http-server && http-server dist -p 8080",      
-    "start": "http-server dist -p 8080"
+    "serve": "http-server -p 8080",
+    "deploy": "npm install -g http-server && http-server  -p 8080",      
+    "start": "http-server -p 8080"
 
  },
     "homepage": "https://bitbucket.org/pasqualevitiello/agnes#readme",
