@@ -1,16 +1,19 @@
 {
-    "name": "KTLM",
-    "version": "1.0.0",
-    "description": "From Agnes Template to Result presentation",
-    "author": "Khaled Ihitt",
-    "license": "GPLv3",
-    "scripts": {
-    "serve": "http-server -p 8080",
-    "deploy": "npm install -g http-server && http-server  -p 8080",      
-    "start": "http-server -p 8080"
-
- },
-    "homepage": "https://bitbucket.org/pasqualevitiello/agnes#readme",
-    "main": "src/index.js"
-  }
+   "name": "KTLM",
+   "version": "1.0.0",
+   "description": "From Agnes Template to Result presentation",
+   "author": "Khaled Ihitt",
+   "license": "KH",
+   "scripts": {
+     "serve": "http-server dist -p 8080",
+     "deploy": "npm run serve",
+     "start": "npm run serve"
+   },
+   "homepage": "https://bitbucket.org/pasqualevitiello/agnes#readme",
+   "main": "src/index.js",
+   "devDependencies": {
+     "http-server": "^14.1.1"
+   }
+ }
+ 
   
