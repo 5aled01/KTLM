@@ -10,7 +10,7 @@
      "start": "npm run serve"
    },
    "homepage": "https://bitbucket.org/pasqualevitiello/agnes#readme",
-   "main": "src/index.js",
+   "main": "index.js",
    "devDependencies": {
      "http-server": "^14.1.1"
    }
