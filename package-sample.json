@@ -22,8 +22,7 @@
     "watch:images": "onchange \"src/images\" -- run-s build:images",
     "watch": "run-p serve watch:*",
     "postinstall": "run-s build watch",
-    "deploy": "npm install -g http-server && http-server -p 8080",
-    "start": "http-server dist -p 8080"
+    "deploy": "npm install -g http-server && http-server -p 8080"
   },
   "devDependencies": {
     "autoprefixer": "^9.0.1",
