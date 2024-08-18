@@ -5,8 +5,8 @@
     "author": "Khaled Ihitt",
     "license": "GPLv3",
     "scripts": {
-        "serve": "http-server dist -p 8080",
-        "deploy": "npm install -g http-server && http-server dist -p 8080",      
+    "serve": "http-server dist -p 8080",
+    "deploy": "npm install -g http-server && http-server dist -p 8080",      
       "clean": "rimraf dist/{css/*,js/*,images/*}",
       "autoprefixer": "postcss -u autoprefixer -r dist/css/*",
       "scss": "node-sass --output-style compressed -o dist/css src/scss",
@@ -22,7 +22,8 @@
       "watch:js": "onchange \"src/js\" -- run-s build:js",
       "watch:images": "onchange \"src/images\" -- run-s build:images",
       "watch": "run-p serve watch:*",
-      "postinstall": "run-s build watch"
+      "postinstall": "run-s build watch",
+      "start": "http-server dist -p 8080"
 
  },
     "devDependencies": {
