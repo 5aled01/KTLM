@@ -5,7 +5,7 @@
    "author": "Khaled Ihitt",
    "license": "KH",
    "scripts": {
-     "serve": "http-server dist -p 8080",
+     "serve": "http-server -p 8080",
      "deploy": "npm run serve",
      "start": "npm run serve"
    },
