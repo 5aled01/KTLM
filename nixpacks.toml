@@ -1,9 +1,5 @@
 [build]
-language = "nodejs"
-install_cmd = "npm install"
-build_cmd = "npm run build"
-start_cmd = "npm run serve"
+builder = "nodejs"
 
-[variables]
-NODE_ENV = "production"
-PORT = "8080"
+[start]
+command = "http-server dist -p 8080"
